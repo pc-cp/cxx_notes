@@ -28,7 +28,7 @@ void f(int *pi) {
 void f(const int* cpi) {
     cout << "void f(const int* cpi)" << endl;
 }
-
+#if 0
 int main() {
     int i = 10;
     int *pi = &i;
@@ -48,3 +48,4 @@ int main() {
     void f(const int* cpi)
     */
 }
+#endif

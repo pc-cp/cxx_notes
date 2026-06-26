@@ -27,7 +27,7 @@ class Singleton {
 
         std::string name_;
 };
-
+#if 0
 int main() {
     Singleton& s1 = Singleton::getInstance();
     std::cout << &s1 << std::endl;
@@ -38,3 +38,4 @@ int main() {
 
     std::cout << s2.getName() << std::endl;
 }
+#endif

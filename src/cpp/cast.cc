@@ -27,7 +27,7 @@ void testDynamicCast(Base* bp) {
     }
 }
 
-
+#if 0
 int main() {
     // double d1 = 100.0;
     // int i1 = static_cast<int>(d1);
@@ -76,3 +76,4 @@ int main() {
     // Derived *pde1 = static_cast<Derived*>(pb1);  // ok
     // pde1->foo();
 }
+#endif

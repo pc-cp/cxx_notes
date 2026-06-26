@@ -54,7 +54,7 @@ bool operator<(const S& lhs, const S& rhs) {
     }
     return lhs.second_name < rhs.second_name;
 }
-
+#if 0
 int main() {
     std::unordered_set<S> names = {{"A1", "A2"}, {"B1", "B2"}, {"C1", "C2"}};
 
@@ -88,3 +88,4 @@ int main() {
     }
 
 }
+#endif

@@ -78,7 +78,7 @@ class ThreadPool {
 void print() {
     printf("tid = %d\n", static_cast<pid_t>(::syscall(SYS_gettid)));
 }
-
+#if 0
 int main() {
     ThreadPool pool;
 
@@ -90,3 +90,5 @@ int main() {
 
     std::this_thread::sleep_for(std::chrono::seconds(10));
 }
+
+#endif

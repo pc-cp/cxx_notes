@@ -1,3 +1,4 @@
+#include <gtest/gtest.h>
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -27,7 +28,7 @@ class Foo {
         int val_;
 };
 
-int main() {
+TEST(callback, demo0) {
     Foo foo;        //栈上对象
     foo.f(5);
     std::cout << foo.val_ << std::endl;

@@ -44,9 +44,10 @@ class Derived : public Base {
     private:
         // Component com;
 };
-
+#if 0
 int main() {
     Derived d;
     Base *b = &d;
     b->func();
 }
+#endif

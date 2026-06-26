@@ -32,7 +32,8 @@ inline void swap(Foo& lhs, Foo& rhs) {
     using std::swap;
     swap(lhs.val_, rhs.val_);
 }
-
+#if 0
 int main() {
     Foo foo = 10;
 }
+#endif

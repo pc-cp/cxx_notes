@@ -7,7 +7,7 @@ public:
         std::cout << "Hello, number: " << n << std::endl;
     }
 };
-
+#if 0
 int main() {
     MyClass obj;
     auto boundFunc = std::bind(&MyClass::sayHello, &obj, std::placeholders::_1);
@@ -19,3 +19,5 @@ int main() {
     std::cout << closure(100) << std::endl;
 
 }
+
+#endif
